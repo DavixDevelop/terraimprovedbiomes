@@ -1,7 +1,7 @@
 To build this mod addon, you must have [Git](https://git-scm.com/) installed on your pc. After installing it, open the Git Bash command line in your preferable folder and clone the repository using:
 
 ```
-git clone https://github.com/DavixDevelop/terracustomtreerepo.git
+git clone https://github.com/DavixDevelop/terraimprovedbiomes.git
 ```
 
 After cloning the repository, you have two options. You can build the mod addon or you can open the project in an IDE like IntelliJ IDEA for development purposes.

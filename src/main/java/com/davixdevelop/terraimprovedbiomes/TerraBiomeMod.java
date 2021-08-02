@@ -7,22 +7,24 @@ import net.minecraftforge.fml.common.event.FMLInitializationEvent;
 import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
-@Mod(modid = TerraBiomeMod.MODID, name = TerraBiomeMod.NAME, version = TerraBiomeMod.VERSION, dependencies = "required-after:terraplusplus@[0.1.519,)")
+@Mod(modid = TerraBiomeMod.MODID,
+  name = TerraBiomeMod.NAME,
+  version = TerraBiomeMod.VERSION,
+  dependencies = "required-after:terracommondatasets@[0.2,)",
+  acceptableRemoteVersions = "*")
 public class TerraBiomeMod
 {
     public static final String MODID = "terraimprovedbiomes";
     public static final String NAME = "Terra++: Improved Biomes addon";
-    public static final String VERSION = "0.1";
+    public static final String VERSION = "0.2.1";
 
     public static Logger LOGGER;
-
-
 
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
         LOGGER = event.getModLog();
-    	MinecraftForge.TERRAIN_GEN_BUS.register(new AddDatasetEventHandler());
+    	MinecraftForge.TERRAIN_GEN_BUS.register(new AddBiomeFilterEventHandler());
     }
 
     @EventHandler

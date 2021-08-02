@@ -19,7 +19,7 @@ public class CustomBiomeFilter implements IEarthBiomeFilter<double[]> {
 
     @Override
     public CompletableFuture<double[]> requestData(ChunkPos pos, GeneratorDatasets datasets, Bounds2d bounds, CornerBoundingBox2d boundsGeo) throws OutOfProjectionBoundsException {
-        return datasets.<IScalarDataset>getCustom(AddDatasetEventHandler.KEY_KOPPEN).getAsync(boundsGeo, 16, 16);
+        return datasets.<IScalarDataset>getCustom(AddBiomeFilterEventHandler.KEY_KOPPEN).getAsync(boundsGeo, 16, 16);
     }
 
     @Override
