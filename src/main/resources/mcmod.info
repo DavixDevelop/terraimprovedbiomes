@@ -9,9 +9,9 @@
   "updateUrl": "",
   "authorList": ["DavixDevelop"],
   "credits": "Matti Borchers (https://earth.motfe.net/author/mattiborchers/) for providing the BIOMES mapping . ",
-  "logoFile": "",
+  "logoFile": "assets/terraimprovedbiomes/logo.png",
   "screenshots": [],
-  "requiredMods" : ["terracommondatasets"]
+  "requiredMods" : ["terracommondatasets"],
   "dependencies": ["terracommondatasets","terraplusplus"]
 }
 ]
