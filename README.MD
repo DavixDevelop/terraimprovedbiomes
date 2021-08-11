@@ -11,7 +11,7 @@
 ### Current Biome Map
 As mentioned before, The mapping from the climate classification to Minecraft biomes is based on the BIOMES Minecraft Earth Map, which results in the following biome map:
 
-<img src="https://i.imgur.com/kKMTk0N.jpg" >
+<img src="https://i.imgur.com/Evdq4oM.jpg" >
 
 ### Future plans
 In a future release, the biome mapping will be based on the Copernicus Global Dynamic Land Cover (ex. open/closed forest, type of forest, shrubland...) map of resolution of either 100m or 2m in combination with the current 1km Köppen-Geiger climate classification map to create even a higher resolution/quality biome map.
