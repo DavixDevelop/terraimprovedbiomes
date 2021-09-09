@@ -6,7 +6,7 @@
 ## TerraPlusPlus: Improved Biomes Add-on
 
 ### What is it?
- Improved Biomes Add-on is a mod that replaces the default low-resolution biome mapping in TerraPlusPlus with a high-resolution biome mapping based on the 1km Köppen-Geiger climate classification map.  The mapping from the climate classification to Minecraft biomes is based on the [BIOMES Minecraft Earth Map](https://earth.motfe.net/2019/01/17/biomes/) provided by @mattiborchers.
+ Improved Biomes Add-on is a mod that replaces the default low-resolution biome mapping in TerraPlusPlus with a high-resolution biome mapping based on the 1km Köppen-Geiger climate classification map.  The mapping from the climate classification to Minecraft biomes is based on the [TILES: BIOMES](https://earth.motfe.net/tiles-biomes/) provided by [@mattiborchers](https://earth.motfe.net/author/mattiborchers/).
 
 ### Current Biome Map
 As mentioned before, The mapping from the climate classification to Minecraft biomes is based on the BIOMES Minecraft Earth Map, which results in the following biome map:
