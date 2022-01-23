@@ -1,10 +1,13 @@
 buildscript {
     repositories {
-        maven { url = "https://maven.daporkchop.net" }
-        //https://files.minecraftforge.net/maven
+        mavenCentral()
+        maven {
+            name = "Minecraft Forge"
+            url = "https://maven.minecraftforge.net/"
+        }
     }
     dependencies {
-        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT'
+        classpath 'net.minecraftforge.gradle:ForgeGradle:2.3-SNAPSHOT' //
     }
 }
 apply plugin: 'net.minecraftforge.gradle.forge'
@@ -47,10 +50,10 @@ dependencies {
     deobfProvided ("com.github.OpenCubicChunks:CubicWorldGen:27de56d2f792513873584b2f8fd9f3082fb259ec") {
         transitive = false
     }
-    deobfProvided ("com.github.BuildTheEarth:terraplusplus:8c9b9aaf40c8470af9d106944622ba2fc9f99ef8") {
+    deobfProvided ("com.github.BuildTheEarth:terraplusplus:8207d314bac2e7681d4211b658eb3f26d3f18f1a") {
         transitive = true
     }
-    //master-SNAPSHOT
+    //master-SNAPSHOT 8c9b9aaf40c8470af9d106944622ba2fc9f99ef8
 }
 
 processResources {
