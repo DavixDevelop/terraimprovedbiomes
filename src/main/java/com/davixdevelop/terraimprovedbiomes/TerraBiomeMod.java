@@ -8,15 +8,12 @@ import net.minecraftforge.fml.common.event.FMLPreInitializationEvent;
 import org.apache.logging.log4j.Logger;
 
 @Mod(modid = TerraBiomeMod.MODID,
-  name = TerraBiomeMod.NAME,
-  version = TerraBiomeMod.VERSION,
-  dependencies = "required-after:terracommondatasets@[0.2,)",
-  acceptableRemoteVersions = "*")
+  dependencies = "required-after:terracommondatasets@[0.2,);required-after:terraplusplus@[0.1.627,)",
+  acceptableRemoteVersions = "*",
+  useMetadata = true)
 public class TerraBiomeMod
 {
     public static final String MODID = "terraimprovedbiomes";
-    public static final String NAME = "Terra++: Improved Biomes addon";
-    public static final String VERSION = "0.2.1";
 
     public static Logger LOGGER;
 
